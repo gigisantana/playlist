@@ -25,7 +25,6 @@ public class CadastroArtista {
         this.repositorio = repositorio;
     }
 
-
     @FXML
     void cadastrar(ActionEvent event) {
         String nome = tfNome.getText();

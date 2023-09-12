@@ -45,8 +45,4 @@ public class Artista {
     public String toString() {
         return "Artista [nome=" + nome + "]";
     }
-
-    
-
-    
 }

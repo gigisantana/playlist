@@ -5,7 +5,6 @@ import javafx.fxml.FXML;
 
 public class Principal {
     
-
     @FXML
     private void cadastrarGenero(){
         App.pushScreen("CADASTROGENERO");
@@ -36,4 +35,8 @@ public class Principal {
         App.pushScreen("LISTARMUSICAS");
     }
 
+    @FXML
+    private void criarPlaylist(){
+        App.pushScreen("CRIARPLAYLIST");
+    }
 }
